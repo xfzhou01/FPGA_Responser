@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0xBFA14152BFA14152" bd:device="xc7z020clg400-2" bd:isValidated="true" bd:synthFlowMode="Hierarchical" bd:tool_version="2018.2" bd:top="romset" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>romset</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="romset_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports>
+        <spirit:port>
+          <spirit:name>ansin</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>3</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>ansout</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>2</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>ansain</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>3</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>ansaout</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>239</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>anscin</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>3</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>ansbout</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>239</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>ansbin</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>3</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>hardout</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>1</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>titlein</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>3</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>hardin</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>3</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>anscout</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>239</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>titleout</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>239</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+      </spirit:ports>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>romset_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>title</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="dist_mem_gen" spirit:vendor="xilinx.com" spirit:version="8.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">romset_dist_mem_gen_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="depth">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="data_width">240</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="memory_type">rom</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="coefficient_file">../../../../xxx/title.coe</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>ansa</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="dist_mem_gen" spirit:vendor="xilinx.com" spirit:version="8.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">romset_dist_mem_gen_0_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="depth">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="data_width">240</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="memory_type">rom</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="coefficient_file">../../../../ansa.coe</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>ansb</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="dist_mem_gen" spirit:vendor="xilinx.com" spirit:version="8.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">romset_ansa_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="depth">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="data_width">240</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="memory_type">rom</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="coefficient_file">../../../../ansb.coe</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>ansc</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="dist_mem_gen" spirit:vendor="xilinx.com" spirit:version="8.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">romset_ansb_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="depth">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="data_width">240</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="memory_type">rom</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="coefficient_file">../../../../ansc.coe</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>hard</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="dist_mem_gen" spirit:vendor="xilinx.com" spirit:version="8.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">romset_dist_mem_gen_0_2</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="depth">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="data_width">2</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="memory_type">rom</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="coefficient_file">../../../../hard.coe</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>ans</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="dist_mem_gen" spirit:vendor="xilinx.com" spirit:version="8.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">romset_dist_mem_gen_0_3</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="depth">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="data_width">3</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="memory_type">rom</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="coefficient_file">../../../../ans.coe</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>a_0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="ansin"/>
+        <spirit:internalPortReference spirit:componentRef="ans" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>ans_spo</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="ans" spirit:portRef="spo"/>
+        <spirit:externalPortReference spirit:portRef="ansout"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>a_1_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="ansain"/>
+        <spirit:internalPortReference spirit:componentRef="ansa" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>ansa_spo</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="ansa" spirit:portRef="spo"/>
+        <spirit:externalPortReference spirit:portRef="ansaout"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>a_2_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="anscin"/>
+        <spirit:internalPortReference spirit:componentRef="ansc" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>ansb_spo</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="ansb" spirit:portRef="spo"/>
+        <spirit:externalPortReference spirit:portRef="ansbout"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>a_3_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="ansbin"/>
+        <spirit:internalPortReference spirit:componentRef="ansb" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>hard_spo</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="hard" spirit:portRef="spo"/>
+        <spirit:externalPortReference spirit:portRef="hardout"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>a_4_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="titlein"/>
+        <spirit:internalPortReference spirit:componentRef="title" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>a_5_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="hardin"/>
+        <spirit:internalPortReference spirit:componentRef="hard" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>ansc_spo</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="ansc" spirit:portRef="spo"/>
+        <spirit:externalPortReference spirit:portRef="anscout"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>title_spo</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="title" spirit:portRef="spo"/>
+        <spirit:externalPortReference spirit:portRef="titleout"/>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+  </spirit:design>
+
+</bd:repository>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Sep 11 16:31:51 2018
+# Process ID: 3368
+# Current directory: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+# Command line: vivado.exe -log Logic_Show_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Logic_Show_Top.tcl
+# Log file: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/Logic_Show_Top.vds
+# Journal file: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Logic_Show_Top.tcl -notrace

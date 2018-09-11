@@ -1,0 +1,374 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 11060
+License: Customer
+
+Current time: 	Tue Sep 11 14:13:03 GMT+08:00 2018
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 146 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	84546
+User home directory: C:/Users/84546
+User working directory: C:/Users/84546/Desktop/main
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/xilinx/Vivado
+HDI_APPROOT: D:/xilinx/Vivado/2018.2
+RDI_DATADIR: D:/xilinx/Vivado/2018.2/data
+RDI_BINDIR: D:/xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/84546/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/84546/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/84546/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/84546/Desktop/main/vivado.log
+Vivado journal file location: 	C:/Users/84546/Desktop/main/vivado.jou
+Engine tmp dir: 	C:/Users/84546/Desktop/main/.Xil/Vivado-11060-LAPTOP-IJ2NHTNA
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/xilinx/Vivado/2018.2
+XILINX_SDK: D:/xilinx/SDK/2018.2
+XILINX_VIVADO: D:/xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	151 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 500 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 34 MB (+33498kb) [00:00:06]
+// [Engine Memory]: 307 MB (+170879kb) [00:00:06]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 58 MB (+22768kb) [00:00:22]
+// [Engine Memory]: 466 MB (+150481kb) [00:00:22]
+// Opening Vivado Project: C:\Users\84546\Desktop\main\HDMI_output_test.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/84546/Desktop/main/HDMI_output_test.xpr 
+// [Engine Memory]: 497 MB (+7387kb) [00:00:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 519 MB. GUI used memory: 34 MB. Current time: 9/11/18 2:13:06 PM GMT+08:00
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 542 MB (+20970kb) [00:00:29]
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 576 MB (+7227kb) [00:00:34]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 618 MB (+14472kb) [00:00:39]
+// [GUI Memory]: 61 MB (+807kb) [00:00:42]
+// [Engine Memory]: 656 MB (+7393kb) [00:00:44]
+// [GUI Memory]: 65 MB (+807kb) [00:00:45]
+// Tcl Message: open_project C:/Users/84546/Desktop/main/HDMI_output_test.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2018.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 676 MB. GUI used memory: 46 MB. Current time: 9/11/18 2:13:27 PM GMT+08:00
+// Tcl Message: open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:24 . Memory (MB): peak = 841.309 ; gain = 172.215 
+// Project name: HDMI_output_test; location: C:/Users/84546/Desktop/main; part: xc7z020clg400-2
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 72 MB (+3148kb) [00:01:25]
+// Elapsed time: 35 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v)]", 2); // B (D, ck)
+// PAPropertyPanels.initPanels (Logic_Show_Top.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// [GUI Memory]: 80 MB (+5416kb) [00:01:29]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v)]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), top_design : top_design (top_design.v)]", 5, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), top_design : top_design (top_design.v), top : top (top.v)]", 7, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// [Engine Memory]: 691 MB (+2227kb) [00:01:39]
+// HMemoryUtils.trashcanNow. Engine heap size: 691 MB. GUI used memory: 48 MB. Current time: 9/11/18 2:14:21 PM GMT+08:00
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), top_design : top_design (top_design.v), sds : show_design (show_design.v)]", 6, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), top_design : top_design (top_design.v), sds : show_design (show_design.v), sc2 : Score2ASC (Score2ASC.v)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [GUI Memory]: 85 MB (+331kb) [00:02:26]
+// Elapsed time: 232 seconds
+selectCodeEditor("show_design.v", 47, 257); // ce (w, ck)
+selectCodeEditor("show_design.v", 47, 257, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("show_design.v", 115, 297); // ce (w, ck)
+selectCodeEditor("show_design.v", 38, 257); // ce (w, ck)
+selectCodeEditor("show_design.v", 59, 259); // ce (w, ck)
+selectCodeEditor("show_design.v", 43, 263); // ce (w, ck)
+selectCodeEditor("show_design.v", 35, 187); // ce (w, ck)
+selectCodeEditor("show_design.v", 27, 217); // ce (w, ck)
+selectCodeEditor("show_design.v", 21, 183); // ce (w, ck)
+selectCodeEditor("show_design.v", 62, 314); // ce (w, ck)
+// [GUI Memory]: 89 MB (+44kb) [00:05:56]
+// Elapsed time: 19 seconds
+selectCodeEditor("show_design.v", 23, 45); // ce (w, ck)
+selectCodeEditor("show_design.v", 37, 93); // ce (w, ck)
+selectCodeEditor("show_design.v", 4, 48); // ce (w, ck)
+selectCodeEditor("show_design.v", 14, 63); // ce (w, ck)
+selectCodeEditor("show_design.v", 4, 46); // ce (w, ck)
+selectCodeEditor("show_design.v", 2, 45); // ce (w, ck)
+selectCodeEditor("show_design.v", 2, 52); // ce (w, ck)
+typeControlKey((HResource) null, "show_design.v", 'c'); // ce (w, ck)
+selectCodeEditor("show_design.v", 49, 206); // ce (w, ck)
+typeControlKey((HResource) null, "show_design.v", 'v'); // ce (w, ck)
+selectCodeEditor("show_design.v", 49, 200); // ce (w, ck)
+selectCodeEditor("show_design.v", 71, 203); // ce (w, ck)
+selectCodeEditor("show_design.v", 85, 201); // ce (w, ck)
+selectCodeEditor("show_design.v", 175, 220); // ce (w, ck)
+selectCodeEditor("show_design.v", 182, 237); // ce (w, ck)
+selectCodeEditor("show_design.v", 186, 258); // ce (w, ck)
+selectCodeEditor("show_design.v", 209, 317); // ce (w, ck)
+selectCodeEditor("show_design.v", 63, 220); // ce (w, ck)
+selectCodeEditor("show_design.v", 63, 220, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("show_design.v", 120, 216); // ce (w, ck)
+selectCodeEditor("show_design.v", 220, 299); // ce (w, ck)
+selectCodeEditor("show_design.v", 214, 319); // ce (w, ck)
+selectCodeEditor("show_design.v", 180, 219); // ce (w, ck)
+selectCodeEditor("show_design.v", 183, 226); // ce (w, ck)
+selectCodeEditor("show_design.v", 70, 233); // ce (w, ck)
+typeControlKey((HResource) null, "show_design.v", 'c'); // ce (w, ck)
+selectCodeEditor("show_design.v", 76, 277); // ce (w, ck)
+selectCodeEditor("show_design.v", 43, 264); // ce (w, ck)
+selectCodeEditor("show_design.v", 46, 266, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("show_design.v", 46, 275); // ce (w, ck)
+// [GUI Memory]: 94 MB (+281kb) [00:06:58]
+typeControlKey((HResource) null, "show_design.v", 'v'); // ce (w, ck)
+selectCodeEditor("show_design.v", 45, 299); // ce (w, ck)
+selectCodeEditor("show_design.v", 48, 294); // ce (w, ck)
+selectCodeEditor("show_design.v", 66, 291); // ce (w, ck)
+selectCodeEditor("show_design.v", 131, 311); // ce (w, ck)
+selectCodeEditor("show_design.v", 142, 307); // ce (w, ck)
+selectCodeEditor("show_design.v", 196, 316); // ce (w, ck)
+selectCodeEditor("show_design.v", 163, 333); // ce (w, ck)
+selectCodeEditor("show_design.v", 92, 315); // ce (w, ck)
+selectCodeEditor("show_design.v", 48, 155); // ce (w, ck)
+typeControlKey((HResource) null, "show_design.v", 'c'); // ce (w, ck)
+selectCodeEditor("show_design.v", 35, 325); // ce (w, ck)
+typeControlKey((HResource) null, "show_design.v", 'v'); // ce (w, ck)
+selectCodeEditor("show_design.v", 45, 330); // ce (w, ck)
+selectCodeEditor("show_design.v", 47, 332); // ce (w, ck)
+selectCodeEditor("show_design.v", 66, 327); // ce (w, ck)
+selectCodeEditor("show_design.v", 139, 350); // ce (w, ck)
+selectCodeEditor("show_design.v", 150, 349); // ce (w, ck)
+selectCodeEditor("show_design.v", 132, 353); // ce (w, ck)
+// Elapsed time: 221 seconds
+selectCodeEditor("show_design.v", 63, 201); // ce (w, ck)
+typeControlKey((HResource) null, "show_design.v", 'c'); // ce (w, ck)
+selectCodeEditor("show_design.v", 71, 358); // ce (w, ck)
+typeControlKey((HResource) null, "show_design.v", 'v'); // ce (w, ck)
+selectCodeEditor("show_design.v", 47, 332); // ce (w, ck)
+selectCodeEditor("show_design.v", 64, 172); // ce (w, ck)
+selectCodeEditor("show_design.v", 64, 172, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "show_design.v", 'c'); // ce (w, ck)
+selectCodeEditor("show_design.v", 48, 333); // ce (w, ck)
+selectCodeEditor("show_design.v", 48, 333, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "show_design.v", 'v'); // ce (w, ck)
+selectCodeEditor("show_design.v", 128, 356); // ce (w, ck)
+selectCodeEditor("show_design.v", 128, 356, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("show_design.v", 153, 346); // ce (w, ck)
+selectCodeEditor("show_design.v", 153, 346, false, false, false, false, true); // ce (w, ck) - Double Click
+// [GUI Memory]: 99 MB (+44kb) [00:11:29]
+selectCodeEditor("show_design.v", 51, 257); // ce (w, ck)
+typeControlKey((HResource) null, "show_design.v", 'c'); // ce (w, ck)
+selectCodeEditor("show_design.v", 71, 239); // ce (w, ck)
+typeControlKey((HResource) null, "show_design.v", 'v'); // ce (w, ck)
+selectCodeEditor("show_design.v", 48, 254); // ce (w, ck)
+selectCodeEditor("show_design.v", 66, 260); // ce (w, ck)
+selectCodeEditor("show_design.v", 66, 260, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("show_design.v", 66, 260); // ce (w, ck)
+selectCodeEditor("show_design.v", 66, 260, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("show_design.v", 80, 272); // ce (w, ck)
+selectCodeEditor("show_design.v", 133, 277); // ce (w, ck)
+selectCodeEditor("show_design.v", 127, 276); // ce (w, ck)
+selectCodeEditor("show_design.v", 127, 276, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("show_design.v", 157, 275); // ce (w, ck)
+selectCodeEditor("show_design.v", 157, 275, false, false, false, false, true); // ce (w, ck) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v)]", 3, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v)]", 3, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("Logic_Top.v", 79, 283); // ce (w, ck)
+selectCodeEditor("Logic_Top.v", 79, 283, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Logic_Top.v", 83, 255); // ce (w, ck)
+selectCodeEditor("Logic_Top.v", 83, 255, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Logic_Top.v", 79, 237); // ce (w, ck)
+selectCodeEditor("Logic_Top.v", 79, 237, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), lc : LED_Ctrl (LED_Ctrl.v)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), lc : LED_Ctrl (LED_Ctrl.v)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v)]", 3, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v)]", 3, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("Logic_Top.v", 139, 86); // ce (w, ck)
+selectCodeEditor("Logic_Top.v", 139, 86, false, false, false, false, true); // ce (w, ck) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v)]", 3); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), lc : LED_Ctrl (LED_Ctrl.v)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), lc : LED_Ctrl (LED_Ctrl.v)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 94 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), cl : CtrlLogic (CtrlLogic.v)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), cl : CtrlLogic (CtrlLogic.v)]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 712 MB. GUI used memory: 50 MB. Current time: 9/11/18 2:27:21 PM GMT+08:00
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), lc : LED_Ctrl (LED_Ctrl.v)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), lc : LED_Ctrl (LED_Ctrl.v)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("LED_Ctrl.v", 81, 312); // ce (w, ck)
+selectCodeEditor("LED_Ctrl.v", 81, 312, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 244 seconds
+selectCodeEditor("LED_Ctrl.v", 205, 198); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), tr : Trans (Trans.v)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), lc : LED_Ctrl (LED_Ctrl.v)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), lc : LED_Ctrl (LED_Ctrl.v)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [GUI Memory]: 104 MB (+815kb) [00:34:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 714 MB. GUI used memory: 50 MB. Current time: 9/11/18 2:57:21 PM GMT+08:00
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 2096 seconds
+selectCodeEditor("LED_Ctrl.v", 324, 129); // ce (w, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (ck)
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Sep 11 15:07:03 2018] Launched synth_1... Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log [Tue Sep 11 15:07:04 2018] Launched impl_1... Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 766ms to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 423ms to process. Increasing delay to 3000 ms.
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 320 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ck)
+// Elapsed time: 15 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g (aQ, ck): FALSE
+// HMemoryUtils.trashcanNow. Engine heap size: 714 MB. GUI used memory: 51 MB. Current time: 9/11/18 3:32:13 PM GMT+08:00
+// Elapsed time: 1422 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1547.000 ; gain = 666.547 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0). 
+// [Engine Memory]: 1,140 MB (+434398kb) [01:24:12]
+// Elapsed time: 10 seconds
+dismissDialog("Auto Connect"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 51 MB. Current time: 9/11/18 3:36:53 PM GMT+08:00
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bx (ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE

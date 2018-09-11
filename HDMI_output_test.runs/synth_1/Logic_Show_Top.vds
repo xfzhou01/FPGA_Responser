@@ -1,0 +1,1039 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Sep 11 16:31:51 2018
+# Process ID: 3368
+# Current directory: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+# Command line: vivado.exe -log Logic_Show_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Logic_Show_Top.tcl
+# Log file: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/Logic_Show_Top.vds
+# Journal file: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Logic_Show_Top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2018.2/data/ip'.
+Command: synth_design -top Logic_Show_Top -part xc7z020clg400-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14236 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 448.570 ; gain = 95.309
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Logic_Show_Top' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Logic_Show_Top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Logic_Top' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/Logic_Top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Trans' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Trans.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Trans' (1#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Trans.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Key_Store' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/Key_Store.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Key_Store' (2#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/Key_Store.v:4]
+INFO: [Synth 8-6157] synthesizing module 'CtrlLogic' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/CtrlLogic.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'CtrlLogic' (3#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/CtrlLogic.v:3]
+INFO: [Synth 8-6157] synthesizing module 'LED_Ctrl' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/LED_Ctrl.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LED_Ctrl' (4#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/LED_Ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Point_adder' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/Point_adder.v:7]
+	Parameter SIMPLE bound to: 5 - type: integer 
+	Parameter MIDIUM bound to: 10 - type: integer 
+	Parameter HARD bound to: 20 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element setter_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/Point_adder.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'Point_adder' (5#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/Point_adder.v:7]
+INFO: [Synth 8-6157] synthesizing module 'counter_60' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/counter_60.v:6]
+	Parameter CLOCK_COUNT bound to: 30000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter_60' (6#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/counter_60.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Logic_Top' (7#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/Logic_Top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'romset_wrapper' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'romset' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/synth/romset.v:13]
+INFO: [Synth 8-6157] synthesizing module 'romset_dist_mem_gen_0_3' [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_dist_mem_gen_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'romset_dist_mem_gen_0_3' (8#1) [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_dist_mem_gen_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'romset_dist_mem_gen_0_1' [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_dist_mem_gen_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'romset_dist_mem_gen_0_1' (9#1) [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_dist_mem_gen_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'romset_ansa_0' [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_ansa_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'romset_ansa_0' (10#1) [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_ansa_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'romset_ansb_0' [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_ansb_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'romset_ansb_0' (11#1) [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_ansb_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'romset_dist_mem_gen_0_2' [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_dist_mem_gen_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'romset_dist_mem_gen_0_2' (12#1) [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_dist_mem_gen_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'romset_dist_mem_gen_0_0' [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'romset_dist_mem_gen_0_0' (13#1) [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/romset_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'romset' (14#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/synth/romset.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'romset_wrapper' (15#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v:12]
+WARNING: [Synth 8-689] width (8) of port connection 'ansain' does not match port width (4) of module 'romset_wrapper' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Logic_Show_Top.v:81]
+WARNING: [Synth 8-689] width (8) of port connection 'ansbin' does not match port width (4) of module 'romset_wrapper' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Logic_Show_Top.v:83]
+WARNING: [Synth 8-689] width (8) of port connection 'anscin' does not match port width (4) of module 'romset_wrapper' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Logic_Show_Top.v:85]
+WARNING: [Synth 8-689] width (8) of port connection 'ansin' does not match port width (4) of module 'romset_wrapper' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Logic_Show_Top.v:87]
+WARNING: [Synth 8-689] width (8) of port connection 'hardin' does not match port width (4) of module 'romset_wrapper' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Logic_Show_Top.v:89]
+WARNING: [Synth 8-689] width (8) of port connection 'titlein' does not match port width (4) of module 'romset_wrapper' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Logic_Show_Top.v:91]
+INFO: [Synth 8-6157] synthesizing module 'top_design' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/top_design.v:2]
+INFO: [Synth 8-6157] synthesizing module 'show_design' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:2]
+	Parameter H_ACTIVE bound to: 16'b0000000111100000 
+	Parameter H_FP bound to: 16'b0000000001011000 
+	Parameter H_SYNC bound to: 16'b0000000000101100 
+	Parameter H_BP bound to: 16'b0000000010010100 
+	Parameter V_ACTIVE bound to: 16'b0000000101101000 
+	Parameter V_FP bound to: 16'b0000000000000100 
+	Parameter V_SYNC bound to: 16'b0000000000000101 
+	Parameter V_BP bound to: 16'b0000000000100100 
+	Parameter H_TOTAL bound to: 16'b0000001011111000 
+	Parameter V_TOTAL bound to: 16'b0000000110010101 
+INFO: [Synth 8-6157] synthesizing module 'Score2ASC' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Score2ASC.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Score2ASC' (16#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Score2ASC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'JudgeHighest' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/JudgeHighest.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'JudgeHighest' (17#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/JudgeHighest.v:4]
+INFO: [Synth 8-6157] synthesizing module 'CounterToAscii' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/CounterToAscii.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'CounterToAscii' (18#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/CounterToAscii.v:23]
+WARNING: [Synth 8-567] referenced signal 'Title' should be on the sensitivity list [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:419]
+WARNING: [Synth 8-567] referenced signal 'Ansa' should be on the sensitivity list [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:419]
+WARNING: [Synth 8-567] referenced signal 'Ansb' should be on the sensitivity list [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:419]
+WARNING: [Synth 8-567] referenced signal 'Ansc' should be on the sensitivity list [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:419]
+WARNING: [Synth 8-567] referenced signal 'Ansd' should be on the sensitivity list [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:419]
+WARNING: [Synth 8-567] referenced signal 'line_score1' should be on the sensitivity list [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:419]
+WARNING: [Synth 8-567] referenced signal 'line_score2' should be on the sensitivity list [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:419]
+WARNING: [Synth 8-567] referenced signal 'line_score3' should be on the sensitivity list [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:419]
+WARNING: [Synth 8-567] referenced signal 'highest' should be on the sensitivity list [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:419]
+WARNING: [Synth 8-567] referenced signal 'counter' should be on the sensitivity list [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:419]
+WARNING: [Synth 8-567] referenced signal 'led_replace' should be on the sensitivity list [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:419]
+INFO: [Synth 8-6157] synthesizing module 'r1_wrapper' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/r1/hdl/r1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'r1' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/r1/synth/r1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'r1_dist_mem_gen_0_0' [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/r1_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'r1_dist_mem_gen_0_0' (19#1) [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/r1_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'r1' (20#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/r1/synth/r1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'r1_wrapper' (21#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/r1/hdl/r1_wrapper.v:12]
+WARNING: [Synth 8-6014] Unused sequential element h_cnt_next_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:286]
+WARNING: [Synth 8-6014] Unused sequential element next_x_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:316]
+WARNING: [Synth 8-6014] Unused sequential element next_y_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:326]
+WARNING: [Synth 8-6014] Unused sequential element v_cnt_next_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:349]
+INFO: [Synth 8-6155] done synthesizing module 'show_design' (22#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:2]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/sources_1/top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'video_pll' [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/video_pll_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'video_pll' (23#1) [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/realtime/video_pll_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'rgb2dvi' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/rgb2dvi.vhd:89]
+	Parameter kGenerateSerialClk bound to: 0 - type: bool 
+	Parameter kClkPrimitive bound to: MMCM - type: string 
+	Parameter kClkRange bound to: 1 - type: integer 
+	Parameter kRstActiveHigh bound to: 1 - type: bool 
+INFO: [Synth 8-638] synthesizing module 'ResetBridge' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/SyncAsyncReset.vhd:72]
+	Parameter kPolarity bound to: 1'b1 
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/SyncAsyncReset.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/SyncAsync.vhd:72]
+	Parameter kResetTo bound to: 1'b1 
+	Parameter kStages bound to: 2 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/SyncAsync.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync' (24#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/SyncAsync.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'ResetBridge' (25#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/SyncAsyncReset.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'OutputSERDES' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/OutputSERDES.vhd:76]
+	Parameter kParallelWidth bound to: 10 - type: integer 
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OutputBuffer' to cell 'OBUFDS' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/OutputSERDES.vhd:83]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'SerializerMaster' to cell 'OSERDESE2' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/OutputSERDES.vhd:92]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: SLAVE - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'SerializerSlave' to cell 'OSERDESE2' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/OutputSERDES.vhd:135]
+INFO: [Synth 8-256] done synthesizing module 'OutputSERDES' (26#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/OutputSERDES.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'TMDS_Encoder' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'TMDS_Encoder' (27#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'rgb2dvi' (28#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/rgb2dvi.vhd:89]
+INFO: [Synth 8-6155] done synthesizing module 'top' (29#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/sources_1/top.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'top_design' (30#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/top_design.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Logic_Show_Top' (31#1) [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Logic_Show_Top.v:23]
+WARNING: [Synth 8-3331] design TMDS_Encoder has unconnected port SerialClk
+WARNING: [Synth 8-3331] design TMDS_Encoder has unconnected port aRst
+WARNING: [Synth 8-3331] design rgb2dvi has unconnected port aRst_n
+WARNING: [Synth 8-3331] design Trans has unconnected port h0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 506.273 ; gain = 153.012
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 506.273 ; gain = 153.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 506.273 ; gain = 153.012
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/r1/ip/r1_dist_mem_gen_0_0/r1_dist_mem_gen_0_0/r1_dist_mem_gen_0_0_in_context.xdc] for cell 'nolabel_line93/sds/rwp/r1_i/dist_mem_gen_0'
+Finished Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/r1/ip/r1_dist_mem_gen_0_0/r1_dist_mem_gen_0_0/r1_dist_mem_gen_0_0_in_context.xdc] for cell 'nolabel_line93/sds/rwp/r1_i/dist_mem_gen_0'
+Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_dist_mem_gen_0_0/romset_dist_mem_gen_0_0/romset_dist_mem_gen_0_0_in_context.xdc] for cell 'nolabel_line81/romset_i/title'
+Finished Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_dist_mem_gen_0_0/romset_dist_mem_gen_0_0/romset_dist_mem_gen_0_0_in_context.xdc] for cell 'nolabel_line81/romset_i/title'
+Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_dist_mem_gen_0_1/romset_dist_mem_gen_0_1/romset_dist_mem_gen_0_1_in_context.xdc] for cell 'nolabel_line81/romset_i/ansa'
+Finished Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_dist_mem_gen_0_1/romset_dist_mem_gen_0_1/romset_dist_mem_gen_0_1_in_context.xdc] for cell 'nolabel_line81/romset_i/ansa'
+Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_ansa_0/romset_ansa_0/romset_ansa_0_in_context.xdc] for cell 'nolabel_line81/romset_i/ansb'
+Finished Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_ansa_0/romset_ansa_0/romset_ansa_0_in_context.xdc] for cell 'nolabel_line81/romset_i/ansb'
+Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_ansb_0/romset_ansb_0/romset_ansb_0_in_context.xdc] for cell 'nolabel_line81/romset_i/ansc'
+Finished Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_ansb_0/romset_ansb_0/romset_ansb_0_in_context.xdc] for cell 'nolabel_line81/romset_i/ansc'
+Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_dist_mem_gen_0_2/romset_dist_mem_gen_0_2/romset_dist_mem_gen_0_2_in_context.xdc] for cell 'nolabel_line81/romset_i/hard'
+Finished Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_dist_mem_gen_0_2/romset_dist_mem_gen_0_2/romset_dist_mem_gen_0_2_in_context.xdc] for cell 'nolabel_line81/romset_i/hard'
+Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_dist_mem_gen_0_3/romset_dist_mem_gen_0_3/romset_dist_mem_gen_0_3_in_context.xdc] for cell 'nolabel_line81/romset_i/ans'
+Finished Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ip/romset_dist_mem_gen_0_3/romset_dist_mem_gen_0_3/romset_dist_mem_gen_0_3_in_context.xdc] for cell 'nolabel_line81/romset_i/ans'
+Parsing XDC File [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/video_pll/video_pll/video_pll_in_context.xdc] for cell 'nolabel_line93/nolabel_line71/video_pll_m0'
+Finished Parsing XDC File [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/video_pll/video_pll/video_pll_in_context.xdc] for cell 'nolabel_line93/nolabel_line71/video_pll_m0'
+Parsing XDC File [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/constrs_1/new/top.xdc]
+WARNING: [Constraints 18-619] A clock with name 'sys_clk' already exists, overwriting the previous clock with the same name. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/constrs_1/new/top.xdc:4]
+Finished Parsing XDC File [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/constrs_1/new/top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/constrs_1/new/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Logic_Show_Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Logic_Show_Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 891.348 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 891.348 ; gain = 538.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 891.348 ; gain = 538.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk. (constraint file  C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/video_pll/video_pll/video_pll_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk. (constraint file  C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/.Xil/Vivado-3368-LAPTOP-IJ2NHTNA/video_pll/video_pll/video_pll_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for nolabel_line93/sds/rwp/r1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line93/sds/rwp/r1_i/dist_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line81/romset_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line81/romset_i/title. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line81/romset_i/ansa. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line81/romset_i/ansb. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line81/romset_i/ansc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line81/romset_i/hard. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line81/romset_i/ans. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line93/nolabel_line71/video_pll_m0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 891.348 ; gain = 538.086
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "p1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "IsStart" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'rgb_g_reg_reg[7:0]' into 'rgb_r_reg_reg[7:0]' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:255]
+INFO: [Synth 8-4471] merging register 'rgb_b_reg_reg[7:0]' into 'rgb_r_reg_reg[7:0]' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:256]
+WARNING: [Synth 8-6014] Unused sequential element rgb_g_reg_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:255]
+WARNING: [Synth 8-6014] Unused sequential element rgb_b_reg_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:256]
+INFO: [Synth 8-5546] ROM "v_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_active" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'ASCII2_reg' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:421]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 891.348 ; gain = 538.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 13    
+	   2 Input     11 Bit       Adders := 18    
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      7 Bit       Adders := 3     
+	   3 Input      5 Bit       Adders := 9     
+	   4 Input      5 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 3     
+	   8 Input      4 Bit       Adders := 6     
+	   2 Input      4 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 42    
++---Registers : 
+	              240 Bit    Registers := 6     
+	               12 Bit    Registers := 4     
+	               11 Bit    Registers := 3     
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 4     
+	                8 Bit    Registers := 5     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 9     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 36    
++---Muxes : 
+	   3 Input     48 Bit        Muxes := 5     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 21    
+	   4 Input     11 Bit        Muxes := 6     
+	   4 Input     10 Bit        Muxes := 3     
+	   2 Input     10 Bit        Muxes := 9     
+	   2 Input      9 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 9     
+	   6 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 34    
+	   4 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Trans 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 4     
+Module Key_Store 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
+Module CtrlLogic 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module LED_Ctrl 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 9     
+Module Point_adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 9     
+	   2 Input     11 Bit       Adders := 18    
++---Registers : 
+	               11 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 18    
+	   4 Input     11 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+Module counter_60 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 9     
+Module Logic_Top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+Module JudgeHighest 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 3     
+	   4 Input      5 Bit        Muxes := 1     
+Module CounterToAscii 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
+Module show_design 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 4     
+	   3 Input      7 Bit       Adders := 3     
++---Registers : 
+	              240 Bit    Registers := 6     
+	               12 Bit    Registers := 4     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   3 Input     48 Bit        Muxes := 5     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 8     
+	  12 Input      1 Bit        Muxes := 1     
+Module SyncAsync 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module TMDS_Encoder 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      5 Bit       Adders := 3     
+	   4 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
++---Registers : 
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "c60/IsStart" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "p_0_out0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_out0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_out0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_out0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_out0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_active" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pC1_1_reg' into 'nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pC0_1_reg' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:115]
+INFO: [Synth 8-4471] merging register 'nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pC1_2_reg' into 'nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pC0_2_reg' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:149]
+INFO: [Synth 8-4471] merging register 'nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pVde_1_reg' into 'nolabel_line71/rgb2dvi_m0/DataEncoders[0].DataEncoder/pVde_1_reg' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:110]
+INFO: [Synth 8-4471] merging register 'nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pVde_2_reg' into 'nolabel_line71/rgb2dvi_m0/DataEncoders[0].DataEncoder/pVde_2_reg' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:150]
+INFO: [Synth 8-4471] merging register 'nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pC0_1_reg' into 'nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pC0_1_reg' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:114]
+INFO: [Synth 8-4471] merging register 'nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pC0_2_reg' into 'nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pC0_2_reg' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:148]
+INFO: [Synth 8-4471] merging register 'nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pC1_1_reg' into 'nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pC0_1_reg' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:115]
+INFO: [Synth 8-4471] merging register 'nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pC1_2_reg' into 'nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pC0_2_reg' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:149]
+INFO: [Synth 8-4471] merging register 'nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pVde_1_reg' into 'nolabel_line71/rgb2dvi_m0/DataEncoders[0].DataEncoder/pVde_1_reg' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:110]
+INFO: [Synth 8-4471] merging register 'nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pVde_2_reg' into 'nolabel_line71/rgb2dvi_m0/DataEncoders[0].DataEncoder/pVde_2_reg' [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:150]
+WARNING: [Synth 8-6014] Unused sequential element nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pC1_1_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:115]
+WARNING: [Synth 8-6014] Unused sequential element nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pC1_2_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:149]
+WARNING: [Synth 8-6014] Unused sequential element nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pVde_1_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:110]
+WARNING: [Synth 8-6014] Unused sequential element nolabel_line71/rgb2dvi_m0/DataEncoders[1].DataEncoder/pVde_2_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:150]
+WARNING: [Synth 8-6014] Unused sequential element nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pC0_1_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:114]
+WARNING: [Synth 8-6014] Unused sequential element nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pC0_2_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:148]
+WARNING: [Synth 8-6014] Unused sequential element nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pC1_1_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:115]
+WARNING: [Synth 8-6014] Unused sequential element nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pC1_2_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:149]
+WARNING: [Synth 8-6014] Unused sequential element nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pVde_1_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:110]
+WARNING: [Synth 8-6014] Unused sequential element nolabel_line71/rgb2dvi_m0/DataEncoders[2].DataEncoder/pVde_2_reg was removed.  [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:150]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\lt/cl/indi_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\lt/lc/host1_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[239] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[238]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[236]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[237] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[236]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[235]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[235]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[234]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[234]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[233]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[233]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[232]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[232]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[230]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[231] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[230]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[228]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[229] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[228]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[227]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[227]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[226]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[226]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[225]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[225]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[224]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[224]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[222]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[223] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[222]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[220]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[221] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[220]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[219]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[219]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[218]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[218]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[217]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[217]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[216]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[216]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[214]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[215] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[214]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[212]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[213] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[212]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[211]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[211]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[210]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[210]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[209]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[209]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[208]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[208]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[206]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[207] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[206]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[204]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[205] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[204]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[203]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[203]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[202]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[202]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[201]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[201]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[200]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[200]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[198]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[199] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[198]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[196]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[197] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[196]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[195]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[195]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[194]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[194]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[193]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[193]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[192]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[191] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[190]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[188]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[189] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[188]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[187]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[187]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[186]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[186]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[185]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[185]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[184]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[184]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[182]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[183] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[182]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[180]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[181] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[180]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[179]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[179]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[178]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[178]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[177]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[177]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[176]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[176]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[174]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[175] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[174]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[172]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[173] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[172]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[171]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[171]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[170]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[170]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[169]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[169]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[168]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[168]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[166]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[167] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[166]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[164]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[165] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[164]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[163]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[163]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[162]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[162]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[161]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[161]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[160]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[160]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[158]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[159] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[158]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[156]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[157] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[156]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[155]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[155]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[154]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[154]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[153]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[153]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[152]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[152]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[150]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[151] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[150]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[148]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[149] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[148]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[147]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[147]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[146]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[146]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[145]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[145]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[144]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[143] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[142]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[140]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[141] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[140]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[139]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[139]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[138]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[138]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[137]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[137]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[136]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[136]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[134]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[135] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[134]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[132]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[133] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[132]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[131]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[131]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[130]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[130]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[129]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[129]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[128]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[128]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[126]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[127] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[126]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[124]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[125] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[124]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[123]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[123]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[122]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[122]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[121]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[121]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[120]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[120]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[118]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[119] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[118]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[116]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[117] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[116]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[115]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[115]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[114]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[114]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[113]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[113]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[112]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[112]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[110]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[111] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[110]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[108]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[109] )
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[108]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[107]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[107]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[106]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[106]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[105]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[105]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[104]'
+INFO: [Synth 8-3886] merging instance 'nolabel_line93/sds/led_replace_reg[104]' (FDRE) to 'nolabel_line93/sds/led_replace_reg[102]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[103] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[101] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[95] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[93] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[87] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[85] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[79] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[77] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[71] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[69] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[61] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[53] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[47] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[45] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\led_replace_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[239] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[238] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[237] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[236] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[235] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[234] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[233] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[232] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[231] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[230] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[229] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[228] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[227] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[226] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[225] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[224] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[223] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[222] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[221] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[220] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[219] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[218] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[217] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[216] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[215] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[214] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[213] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[212] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[211] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[210] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[209] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[208] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[207] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[206] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[205] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[204] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[203] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line93/sds /\counter_reg[202] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (lt/cl/indi_reg[2]) is unused and will be removed from module Logic_Show_Top.
+WARNING: [Synth 8-3332] Sequential element (lt/lc/host1_reg) is unused and will be removed from module Logic_Show_Top.
+WARNING: [Synth 8-3332] Sequential element (active_x_reg[11]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (active_x_reg[10]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (active_x_reg[9]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[239]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[237]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[231]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[229]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[223]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[221]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[215]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[213]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[207]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[205]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[199]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[197]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[191]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[189]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[183]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[181]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[175]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[173]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[167]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[165]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[159]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[157]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[151]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[149]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[144]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[143]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[141]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[135]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[133]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[127]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[125]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[119]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[117]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[111]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[109]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[103]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[101]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[95]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[93]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[87]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[85]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[79]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[77]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[71]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[69]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[63]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[61]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[55]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[53]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[47]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[45]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[39]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[37]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[31]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[29]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[23]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[21]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[15]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[13]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[7]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (led_replace_reg[5]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[239]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[238]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[237]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[236]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[235]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[234]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[233]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[232]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[231]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[230]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[229]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[228]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[227]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[226]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[225]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[224]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[223]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[222]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[221]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[220]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[219]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[218]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[217]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[216]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[215]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[214]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[213]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[212]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[211]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[210]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[209]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[208]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[207]) is unused and will be removed from module show_design.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[206]) is unused and will be removed from module show_design.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 891.348 ; gain = 538.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'nolabel_line93/nolabel_line71/video_pll_m0/clk_out1' to pin 'nolabel_line93/nolabel_line71/video_pll_m0/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'nolabel_line93/nolabel_line71/video_pll_m0/clk_out2' to pin 'nolabel_line93/nolabel_line71/video_pll_m0/bbstub_clk_out2/O'
+WARNING: [Synth 8-565] redefining clock 'sys_clk'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:06 . Memory (MB): peak = 891.348 ; gain = 538.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:05 ; elapsed = 00:01:09 . Memory (MB): peak = 936.598 ; gain = 583.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:06 ; elapsed = 00:01:11 . Memory (MB): peak = 1017.410 ; gain = 664.148
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 1017.410 ; gain = 664.148
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 1017.410 ; gain = 664.148
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 1017.410 ; gain = 664.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 1017.410 ; gain = 664.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:08 ; elapsed = 00:01:13 . Memory (MB): peak = 1017.410 ; gain = 664.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:08 ; elapsed = 00:01:13 . Memory (MB): peak = 1017.410 ; gain = 664.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++---------------+--------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name    | RTL Name                                                                       | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++---------------+--------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Logic_Show_Top | nolabel_line93/nolabel_line71/rgb2dvi_m0/DataEncoders[0].DataEncoder/pC0_2_reg | 3      | 3     | NO           | NO                 | YES               | 3      | 0       | 
++---------------+--------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------+----------+
+|      |BlackBox name           |Instances |
++------+------------------------+----------+
+|1     |romset_dist_mem_gen_0_3 |         1|
+|2     |romset_dist_mem_gen_0_1 |         1|
+|3     |romset_ansa_0           |         1|
+|4     |romset_ansb_0           |         1|
+|5     |romset_dist_mem_gen_0_2 |         1|
+|6     |romset_dist_mem_gen_0_0 |         1|
+|7     |video_pll               |         1|
+|8     |r1_dist_mem_gen_0_0     |         1|
++------+------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------+------+
+|      |Cell                    |Count |
++------+------------------------+------+
+|1     |r1_dist_mem_gen_0_0     |     1|
+|2     |romset_ansa_0           |     1|
+|3     |romset_ansb_0           |     1|
+|4     |romset_dist_mem_gen_0_0 |     1|
+|5     |romset_dist_mem_gen_0_1 |     1|
+|6     |romset_dist_mem_gen_0_2 |     1|
+|7     |romset_dist_mem_gen_0_3 |     1|
+|8     |video_pll               |     1|
+|9     |CARRY4                  |    75|
+|10    |LUT1                    |    23|
+|11    |LUT2                    |   182|
+|12    |LUT3                    |    98|
+|13    |LUT4                    |   158|
+|14    |LUT5                    |   130|
+|15    |LUT6                    |   774|
+|16    |MUXF7                   |   117|
+|17    |OSERDESE2               |     4|
+|18    |OSERDESE2_1             |     4|
+|19    |SRL16E                  |     3|
+|20    |FDPE                    |     2|
+|21    |FDRE                    |   235|
+|22    |FDSE                    |    12|
+|23    |LD                      |     8|
+|24    |IBUF                    |     4|
+|25    |OBUF                    |     5|
+|26    |OBUFDS                  |     4|
++------+------------------------+------+
+
+Report Instance Areas: 
++------+-----------------------------------------+---------------+------+
+|      |Instance                                 |Module         |Cells |
++------+-----------------------------------------+---------------+------+
+|1     |top                                      |               |  3318|
+|2     |  lt                                     |Logic_Top      |   814|
+|3     |    c60                                  |counter_60     |    87|
+|4     |    cl                                   |CtrlLogic      |    11|
+|5     |    k1                                   |Key_Store      |    23|
+|6     |    lc                                   |LED_Ctrl       |     3|
+|7     |    pa                                   |Point_adder    |   665|
+|8     |  nolabel_line81                         |romset_wrapper |  1369|
+|9     |    romset_i                             |romset         |   965|
+|10    |  nolabel_line93                         |top_design     |  1111|
+|11    |    nolabel_line71                       |top            |    75|
+|12    |      rgb2dvi_m0                         |rgb2dvi        |    72|
+|13    |        ClockSerializer                  |OutputSERDES   |     3|
+|14    |        \DataEncoders[0].DataEncoder     |TMDS_Encoder   |    26|
+|15    |        \DataEncoders[0].DataSerializer  |OutputSERDES_0 |     3|
+|16    |        \DataEncoders[1].DataEncoder     |TMDS_Encoder_1 |    13|
+|17    |        \DataEncoders[1].DataSerializer  |OutputSERDES_2 |     3|
+|18    |        \DataEncoders[2].DataEncoder     |TMDS_Encoder_3 |    18|
+|19    |        \DataEncoders[2].DataSerializer  |OutputSERDES_4 |     3|
+|20    |        LockLostReset                    |ResetBridge    |     3|
+|21    |          SyncAsyncx                     |SyncAsync      |     2|
+|22    |    sds                                  |show_design    |  1034|
+|23    |      jh                                 |JudgeHighest   |    36|
+|24    |        scb                              |Score2ASC      |    36|
+|25    |      rwp                                |r1_wrapper     |   695|
+|26    |        r1_i                             |r1             |   512|
++------+-----------------------------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:08 ; elapsed = 00:01:13 . Memory (MB): peak = 1017.410 ; gain = 664.148
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1214 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 1017.410 ; gain = 279.074
+Synthesis Optimization Complete : Time (s): cpu = 00:01:08 ; elapsed = 00:01:13 . Memory (MB): peak = 1017.410 ; gain = 664.148
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 208 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  LD => LDCE: 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+320 Infos, 141 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:11 ; elapsed = 00:01:16 . Memory (MB): peak = 1017.410 ; gain = 675.617
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/Logic_Show_Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Logic_Show_Top_utilization_synth.rpt -pb Logic_Show_Top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1017.410 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 11 16:33:15 2018...

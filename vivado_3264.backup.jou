@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Sep 11 16:23:59 2018
+# Process ID: 3264
+# Current directory: C:/Users/84546/Desktop/main
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3472 C:\Users\84546\Desktop\main\HDMI_output_test.xpr
+# Log file: C:/Users/84546/Desktop/main/vivado.log
+# Journal file: C:/Users/84546/Desktop/main\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/84546/Desktop/main/HDMI_output_test.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw
+open_bd_design {C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/romset.bd}
+startgroup
+set_property -dict [list CONFIG.coefficient_file {C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/xxx/title.coe}] [get_bd_cells title]
+endgroup
+save_bd_design
+make_wrapper -files [get_files C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/romset.bd] -top
+reset_run synth_1
+reset_run romset_dist_mem_gen_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw
+open_bd_design {C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/romset.bd}

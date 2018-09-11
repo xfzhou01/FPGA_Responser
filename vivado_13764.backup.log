@@ -1,0 +1,870 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Sep 10 23:16:31 2018
+# Process ID: 13764
+# Current directory: C:/Users/84546/Desktop/main
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14180 C:\Users\84546\Desktop\main\HDMI_output_test.xpr
+# Log file: C:/Users/84546/Desktop/main/vivado.log
+# Journal file: C:/Users/84546/Desktop/main\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/84546/Desktop/main/HDMI_output_test.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 827.652 ; gain = 139.652
+update_compile_order -fileset sources_1open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+open_hw_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1534.430 ; gain = 635.215
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Sep 10 23:23:15 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Mon Sep 10 23:23:15 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Sep 10 23:31:01 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Mon Sep 10 23:31:01 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Sep 10 23:36:37 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Mon Sep 10 23:36:37 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Sep 10 23:43:55 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Mon Sep 10 23:43:55 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Sep 10 23:52:07 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Mon Sep 10 23:52:07 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Sep 10 23:58:42 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Mon Sep 10 23:58:42 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Sep 11 01:08:05 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Tue Sep 11 01:08:05 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Sep 11 01:18:43 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Tue Sep 11 01:18:43 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Sep 11 01:30:35 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Tue Sep 11 01:30:35 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+create_bd_design "romset"
+Wrote  : <C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/romset.bd> 
+create_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1651.809 ; gain = 8.199
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:dist_mem_gen:8.0 dist_mem_gen_0
+endgroup
+set_property -dict [list CONFIG.depth {16} CONFIG.data_width {240} CONFIG.memory_type {rom}] [get_bd_cells dist_mem_gen_0]
+set_property name title [get_bd_cells dist_mem_gen_0]
+set_property location {1 112 -56} [get_bd_cells title]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:dist_mem_gen:8.0 dist_mem_gen_0
+endgroup
+set_property -dict [list CONFIG.depth {16} CONFIG.data_width {240} CONFIG.memory_type {rom}] [get_bd_cells dist_mem_gen_0]
+set_property name ansa [get_bd_cells dist_mem_gen_0]
+startgroup
+copy_bd_objs /  [get_bd_cells {ansa}]
+set_property location {1 139 -148} [get_bd_cells ansa1]
+endgroup
+set_property name ansb [get_bd_cells ansa1]
+startgroup
+copy_bd_objs /  [get_bd_cells {ansb}]
+set_property location {1 104 -70} [get_bd_cells ansb1]
+endgroup
+set_property name ansc [get_bd_cells ansb1]
+regenerate_bd_layout
+set_property -dict [list CONFIG.coefficient_file {C:/Users/84546/Desktop/main/HDMI_output_test.srcs/ansa.coe}] [get_bd_cells ansa]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/84546/Desktop/main/HDMI_output_test.srcs/ansa.coe' provided. It will be converted relative to IP Instance files '../../../../../ansa.coe'
+set_property -dict [list CONFIG.coefficient_file {C:/Users/84546/Desktop/main/HDMI_output_test.srcs/ansb.coe}] [get_bd_cells ansb]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/84546/Desktop/main/HDMI_output_test.srcs/ansb.coe' provided. It will be converted relative to IP Instance files '../../../../../ansb.coe'
+set_property -dict [list CONFIG.coefficient_file {C:/Users/84546/Desktop/main/HDMI_output_test.srcs/ansc.coe}] [get_bd_cells ansc]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/84546/Desktop/main/HDMI_output_test.srcs/ansc.coe' provided. It will be converted relative to IP Instance files '../../../../../ansc.coe'
+set_property -dict [list CONFIG.coefficient_file {C:/Users/84546/Desktop/main/HDMI_output_test.srcs/title.coe}] [get_bd_cells title]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/84546/Desktop/main/HDMI_output_test.srcs/title.coe' provided. It will be converted relative to IP Instance files '../../../../../title.coe'
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:dist_mem_gen:8.0 dist_mem_gen_0
+endgroup
+set_property -dict [list CONFIG.depth {16} CONFIG.data_width {2} CONFIG.memory_type {rom} CONFIG.coefficient_file {C:/Users/84546/Desktop/main/HDMI_output_test.srcs/hard.coe}] [get_bd_cells dist_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/84546/Desktop/main/HDMI_output_test.srcs/hard.coe' provided. It will be converted relative to IP Instance files '../../../../../hard.coe'
+set_property name hard [get_bd_cells dist_mem_gen_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:dist_mem_gen:8.0 dist_mem_gen_0
+endgroup
+set_property -dict [list CONFIG.depth {16} CONFIG.data_width {3} CONFIG.memory_type {rom} CONFIG.coefficient_file {C:/Users/84546/Desktop/main/HDMI_output_test.srcs/ans.coe}] [get_bd_cells dist_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/84546/Desktop/main/HDMI_output_test.srcs/ans.coe' provided. It will be converted relative to IP Instance files '../../../../../ans.coe'
+set_property name ans [get_bd_cells dist_mem_gen_0]
+regenerate_bd_layout
+startgroup
+make_bd_pins_external  [get_bd_pins ans/a]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins ans/spo]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins ansa/a]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins ansa/spo]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins ansc/a] [get_bd_pins ansb/spo] [get_bd_pins ansb/a] [get_bd_pins hard/spo] [get_bd_pins title/a] [get_bd_pins hard/a] [get_bd_pins ansc/spo] [get_bd_pins title/spo]
+endgroup
+set_property name ansin [get_bd_ports a_0]
+set_property name ansout [get_bd_ports spo_0]
+set_property name ansaout [get_bd_ports spo_1]
+set_property name ansain [get_bd_ports a_1]
+set_property name ansbin [get_bd_ports a_3]
+set_property name ansbout [get_bd_ports spo_2]
+set_property name anscin [get_bd_ports a_2]
+set_property name anscout [get_bd_ports spo_4]
+set_property name hardin [get_bd_ports a_5]
+set_property name hardout [get_bd_ports spo_3]
+set_property name titlein [get_bd_ports a_4]
+set_property name titleout [get_bd_ports spo_5]
+save_bd_design
+Wrote  : <C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/romset.bd> 
+Wrote  : <C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ui/bd_31113d2.ui> 
+make_wrapper -files [get_files C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/romset.bd] -top
+Wrote  : <C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/romset.bd> 
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/synth/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/sim/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+add_files -norecurse C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'romset.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/ui/bd_31113d2.ui> 
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/synth/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/sim/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+ERROR: [Ipptcl 7-519] NULL COE Data pointer: Invalid Binary Value detected in the COE File: -1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1-1-10-1-1-1-1-1
+ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+CRITICAL WARNING: [IP_Flow 19-1747] Failed to deliver file 'd:/xilinx/Vivado/2018.2/data/ip/xilinx/dist_mem_gen_v8_0/hdl/mem_init_file.xit': ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'title'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'title'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [BD 41-1030] Generation failed for the IP Integrator block title 
+ERROR: [Ipptcl 7-519] NULL COE Data pointer: Invalid Binary Value detected in the COE File: -1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000
+ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+CRITICAL WARNING: [IP_Flow 19-1747] Failed to deliver file 'd:/xilinx/Vivado/2018.2/data/ip/xilinx/dist_mem_gen_v8_0/hdl/mem_init_file.xit': ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ansa'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'ansa'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [BD 41-1030] Generation failed for the IP Integrator block ansa 
+ERROR: [Ipptcl 7-519] NULL COE Data pointer: Invalid Binary Value detected in the COE File: -1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000
+ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+CRITICAL WARNING: [IP_Flow 19-1747] Failed to deliver file 'd:/xilinx/Vivado/2018.2/data/ip/xilinx/dist_mem_gen_v8_0/hdl/mem_init_file.xit': ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ansb'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'ansb'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [BD 41-1030] Generation failed for the IP Integrator block ansb 
+ERROR: [Ipptcl 7-519] NULL COE Data pointer: Invalid Binary Value detected in the COE File: -1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000-1-1-100000
+ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+CRITICAL WARNING: [IP_Flow 19-1747] Failed to deliver file 'd:/xilinx/Vivado/2018.2/data/ip/xilinx/dist_mem_gen_v8_0/hdl/mem_init_file.xit': ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ansc'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'ansc'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [BD 41-1030] Generation failed for the IP Integrator block ansc 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hard .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ans .
+Exporting to file C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hw_handoff/romset.hwh
+Generated Block Design Tcl file C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hw_handoff/romset_bd.tcl
+Generated Hardware Definition File C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/synth/romset.hwdef
+ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'romset.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/synth/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/sim/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block title .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ansa .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ansb .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ansc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hard .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ans .
+Exporting to file C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hw_handoff/romset.hwh
+Generated Block Design Tcl file C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hw_handoff/romset_bd.tcl
+Generated Hardware Definition File C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/synth/romset.hwdef
+[Tue Sep 11 02:17:34 2018] Launched romset_dist_mem_gen_0_0_synth_1, romset_ansa_0_synth_1, romset_ansb_0_synth_1, romset_dist_mem_gen_0_1_synth_1, romset_dist_mem_gen_0_2_synth_1, romset_dist_mem_gen_0_3_synth_1, synth_1...
+Run output will be captured here:
+romset_dist_mem_gen_0_0_synth_1: C:/Users/84546/Desktop/main/HDMI_output_test.runs/romset_dist_mem_gen_0_0_synth_1/runme.log
+romset_ansa_0_synth_1: C:/Users/84546/Desktop/main/HDMI_output_test.runs/romset_ansa_0_synth_1/runme.log
+romset_ansb_0_synth_1: C:/Users/84546/Desktop/main/HDMI_output_test.runs/romset_ansb_0_synth_1/runme.log
+romset_dist_mem_gen_0_1_synth_1: C:/Users/84546/Desktop/main/HDMI_output_test.runs/romset_dist_mem_gen_0_1_synth_1/runme.log
+romset_dist_mem_gen_0_2_synth_1: C:/Users/84546/Desktop/main/HDMI_output_test.runs/romset_dist_mem_gen_0_2_synth_1/runme.log
+romset_dist_mem_gen_0_3_synth_1: C:/Users/84546/Desktop/main/HDMI_output_test.runs/romset_dist_mem_gen_0_3_synth_1/runme.log
+synth_1: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Tue Sep 11 02:17:35 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1892.617 ; gain = 46.109
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Sep 11 02:22:24 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Tue Sep 11 02:22:24 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v] -no_script -reset -force -quiet
+remove_files  C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/romset.bd] -top
+add_files -norecurse C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v] -no_script -reset -force -quiet
+remove_files  C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+file delete -force C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/romset.bd] -top
+INFO: [BD 41-1662] The design 'romset.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/synth/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/sim/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+add_files -norecurse C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/romset.bd] -top
+INFO: [BD 41-1662] The design 'romset.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/synth/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/sim/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/Point_adder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/counter_60.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/top_design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Score2ASC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Trans.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/Logic_Top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Logic_Show_Top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/Point_adder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/counter_60.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/top_design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Score2ASC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Trans.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/show_design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/Logic_Top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/imports/src/TMDS_Encoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/new/Logic_Show_Top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'romset.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/synth/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/sim/romset.v
+VHDL Output written to : C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hdl/romset_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block title .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ansa .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ansb .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ansc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hard .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ans .
+Exporting to file C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hw_handoff/romset.hwh
+Generated Block Design Tcl file C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/hw_handoff/romset_bd.tcl
+Generated Hardware Definition File C:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/bd/romset/synth/romset.hwdef
+[Tue Sep 11 02:33:05 2018] Launched synth_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/synth_1/runme.log
+[Tue Sep 11 02:33:05 2018] Launched impl_1...
+Run output will be captured here: C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/84546/Desktop/main/HDMI_output_test.runs/impl_1/Logic_Show_Top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 11 02:38:04 2018...

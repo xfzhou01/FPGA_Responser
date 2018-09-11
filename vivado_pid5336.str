@@ -1,0 +1,287 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 5336
+License: Customer
+
+Current time: 	Tue Sep 11 19:52:23 GMT+08:00 2018
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 146 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	84546
+User home directory: C:/Users/84546
+User working directory: C:/Users/84546/Desktop/main
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/xilinx/Vivado
+HDI_APPROOT: D:/xilinx/Vivado/2018.2
+RDI_DATADIR: D:/xilinx/Vivado/2018.2/data
+RDI_BINDIR: D:/xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/84546/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/84546/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/84546/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/84546/Desktop/main/vivado.log
+Vivado journal file location: 	C:/Users/84546/Desktop/main/vivado.jou
+Engine tmp dir: 	C:/Users/84546/Desktop/main/.Xil/Vivado-5336-LAPTOP-IJ2NHTNA
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/xilinx/Vivado/2018.2
+XILINX_SDK: D:/xilinx/SDK/2018.2
+XILINX_VIVADO: D:/xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	152 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 519 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 37 MB (+36577kb) [00:00:12]
+// [Engine Memory]: 409 MB (+277191kb) [00:00:12]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 58 MB (+20048kb) [00:00:20]
+// [Engine Memory]: 470 MB (+42565kb) [00:00:20]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\84546\Desktop\main\HDMI_output_test.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/84546/Desktop/main/HDMI_output_test.xpr 
+// [Engine Memory]: 537 MB (+45659kb) [00:00:23]
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 541 MB. GUI used memory: 34 MB. Current time: 9/11/18 7:52:26 PM GMT+08:00
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 627 MB (+66346kb) [00:00:36]
+// [GUI Memory]: 66 MB (+4882kb) [00:00:43]
+// Tcl Message: open_project C:/Users/84546/Desktop/main/HDMI_output_test.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2018.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 691 MB. GUI used memory: 45 MB. Current time: 9/11/18 7:52:45 PM GMT+08:00
+// [Engine Memory]: 691 MB (+34103kb) [00:00:46]
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:23 . Memory (MB): peak = 842.270 ; gain = 170.938 
+// Project name: HDMI_output_test; location: C:/Users/84546/Desktop/main; part: xc7z020clg400-2
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 70 MB (+540kb) [00:01:23]
+// Elapsed time: 86 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v)]", 2); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v)]", 3); // B (D, ck)
+// PAPropertyPanels.initPanels (Trans.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), tr : Trans (Trans.v)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), tr : Trans (Trans.v)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [GUI Memory]: 81 MB (+8543kb) [00:02:19]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 324ms to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 85 MB (+34kb) [00:05:53]
+// HMemoryUtils.trashcanNow. Engine heap size: 693 MB. GUI used memory: 44 MB. Current time: 9/11/18 9:37:16 PM GMT+08:00
+// Elapsed time: 7152 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), cl : CtrlLogic (CtrlLogic.v)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), cl : CtrlLogic (CtrlLogic.v)]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), pa : Point_adder (Point_adder.v)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), pa : Point_adder (Point_adder.v)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [GUI Memory]: 90 MB (+249kb) [02:03:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 693 MB. GUI used memory: 46 MB. Current time: 9/11/18 10:07:17 PM GMT+08:00
+// [GUI Memory]: 95 MB (+81kb) [02:21:31]
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2460 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2307 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1874 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1993 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1943 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 693 MB. GUI used memory: 44 MB. Current time: 9/11/18 10:37:17 PM GMT+08:00
+// [GUI Memory]: 99 MB (+101kb) [03:12:23]
+// HMemoryUtils.trashcanNow. Engine heap size: 693 MB. GUI used memory: 45 MB. Current time: 9/11/18 11:07:17 PM GMT+08:00
+// Elapsed time: 4405 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), cl : CtrlLogic (CtrlLogic.v)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), cl : CtrlLogic (CtrlLogic.v)]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 205 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), pa : Point_adder (Point_adder.v)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v), pa : Point_adder (Point_adder.v)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 1278 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), romset_wrapper : romset_wrapper (romset_wrapper.v)]", 10, true); // B (D, ck) - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v)]", 2); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v)]", 2); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), lt : Logic_Top (Logic_Top.v)]", 3); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), top_design : top_design (top_design.v)]", 5); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), top_design : top_design (top_design.v), sds : show_design (show_design.v)]", 6); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), top_design : top_design (top_design.v), sds : show_design (show_design.v)]", 6); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), top_design : top_design (top_design.v), top : top (top.v)]", 7); // B (D, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 693 MB. GUI used memory: 45 MB. Current time: 9/11/18 11:37:18 PM GMT+08:00
+// Elapsed time: 833 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), top_design : top_design (top_design.v), sds : show_design (show_design.v)]", 6, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Logic_Show_Top (Logic_Show_Top.v), top_design : top_design (top_design.v), sds : show_design (show_design.v), sc2 : Score2ASC (Score2ASC.v)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 693 MB. GUI used memory: 45 MB. Current time: 9/12/18 12:07:18 AM GMT+08:00
+// Elapsed time: 2432 seconds
+selectCodeEditor("show_design.v", 133, 204); // ce (w, ck)
+selectCodeEditor("show_design.v", 133, 204, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("show_design.v", 101, 289); // ce (w, ck)
+selectCodeEditor("show_design.v", 101, 289, false, false, false, false, true); // ce (w, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 693 MB. GUI used memory: 45 MB. Current time: 9/12/18 12:37:18 AM GMT+08:00
+// Elapsed time: 649 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bx (ck):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7z020clg400-2 
+// HMemoryUtils.trashcanNow. Engine heap size: 801 MB. GUI used memory: 47 MB. Current time: 9/12/18 12:38:03 AM GMT+08:00
+// [Engine Memory]: 806 MB (+84550kb) [04:46:03]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// [Engine Memory]: 970 MB (+129939kb) [04:46:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,044 MB. GUI used memory: 46 MB. Current time: 9/12/18 12:38:18 AM GMT+08:00
+// [Engine Memory]: 1,047 MB (+29057kb) [04:46:18]
+// [Engine Memory]: 1,277 MB (+187100kb) [04:46:23]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,420 MB. GUI used memory: 45 MB. Current time: 9/12/18 12:38:27 AM GMT+08:00
+// [Engine Memory]: 1,420 MB (+81976kb) [04:46:26]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.2s
+// [GUI Memory]: 105 MB (+742kb) [04:46:29]
+// [Engine Memory]: 1,532 MB (+42971kb) [04:46:29]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/ip/video_pll/video_pll_board.xdc] for cell 'nolabel_line93/nolabel_line71/video_pll_m0/inst' Finished Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/ip/video_pll/video_pll_board.xdc] for cell 'nolabel_line93/nolabel_line71/video_pll_m0/inst' Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/ip/video_pll/video_pll.xdc] for cell 'nolabel_line93/nolabel_line71/video_pll_m0/inst' 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/ip/video_pll/video_pll.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/ip/video_pll/video_pll.xdc:57] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1805.109 ; gain = 564.684 
+// Tcl Message: Finished Parsing XDC File [c:/Users/84546/Desktop/main/HDMI_output_test.srcs/sources_1/ip/video_pll/video_pll.xdc] for cell 'nolabel_line93/nolabel_line71/video_pll_m0/inst' Parsing XDC File [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/constrs_1/new/top.xdc] Finished Parsing XDC File [C:/Users/84546/Desktop/main/HDMI_output_test.srcs/constrs_1/new/top.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// ExpRunCommands.openSynthResults elapsed time: 40.8s
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 1805.234 ; gain = 922.617 
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// 'dP' command handler elapsed time: 42 seconds
+// Elapsed time: 42 seconds
+dismissDialog("Open Synthesized Design"); // bx (ck)
+// Elapsed time: 95 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, -35717, 424570); // D (I, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 117921, 388226); // D (I, ck)
+// Device select: 'Tile - CLBLM_L_X12Y38'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 329, 235, 845, 360); // U (k, ck)
+// PAPropertyPanels.initPanels (Tile: CLBLM_L_X12Y38) elapsed time: 0.3s
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 96445, 267628); // D (I, ck)
+// Device select: 'Tile - PSS2_X32Y105'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 316, 162, 845, 360); // U (k, ck)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 529275, 277540); // D (I, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,569 MB. GUI used memory: 85 MB. Current time: 9/12/18 12:40:15 AM GMT+08:00
+// Device view-level: 0.3
+// HMemoryUtils.trashcanNow. Engine heap size: 1,570 MB. GUI used memory: 84 MB. Current time: 9/12/18 12:40:18 AM GMT+08:00
+// Device view-level: 0.6
+// Device view-level: 0.9
+// HMemoryUtils.trashcanNow. Engine heap size: 1,572 MB. GUI used memory: 84 MB. Current time: 9/12/18 12:40:21 AM GMT+08:00
+// Device view-level: 1.2
+// Device view-level: 1.5
+// Device view-level: 1.8
+// HMemoryUtils.trashcanNow. Engine heap size: 1,573 MB. GUI used memory: 84 MB. Current time: 9/12/18 12:40:22 AM GMT+08:00
+// Device view-level: 2.0
+// Device view-level: 1.8
+// Device view-level: 1.2
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+// Elapsed time: 24 seconds
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_SYNTHESIS, "Post-Synthesis", 0); // b (C, ck)
+// [GUI Memory]: 112 MB (+1556kb) [04:48:52]
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_IMPLEMENTATION, "Post-Implementation", 1); // b (C, ck)
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceOtoP.ProjectSummaryUtilizationPanel_TABLE, "Table", 1); // f (C, ck)
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceOtoP.ProjectSummaryUtilizationPanel_GRAPH, "Graph", 0); // f (C, ck)
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 519 ms to process. Increasing delay to 2000 ms.

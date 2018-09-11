@@ -1,0 +1,38 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace portBus ansaout -pg 1 -y 160 -defaultsOSRD
+preplace portBus titlein -pg 1 -y 590 -defaultsOSRD
+preplace portBus hardout -pg 1 -y 490 -defaultsOSRD
+preplace portBus ansbin -pg 1 -y 270 -defaultsOSRD
+preplace portBus ansout -pg 1 -y 60 -defaultsOSRD
+preplace portBus titleout -pg 1 -y 590 -defaultsOSRD
+preplace portBus anscout -pg 1 -y 380 -defaultsOSRD
+preplace portBus hardin -pg 1 -y 490 -defaultsOSRD
+preplace portBus ansin -pg 1 -y 60 -defaultsOSRD
+preplace portBus anscin -pg 1 -y 380 -defaultsOSRD
+preplace portBus ansbout -pg 1 -y 270 -defaultsOSRD
+preplace portBus ansain -pg 1 -y 160 -defaultsOSRD
+preplace inst ans -pg 1 -lvl 1 -y 60 -defaultsOSRD
+preplace inst ansa -pg 1 -lvl 1 -y 160 -defaultsOSRD
+preplace inst ansb -pg 1 -lvl 1 -y 270 -defaultsOSRD -resize 140 88
+preplace inst ansc -pg 1 -lvl 1 -y 380 -defaultsOSRD -resize 140 88
+preplace inst hard -pg 1 -lvl 1 -y 490 -defaultsOSRD
+preplace inst title -pg 1 -lvl 1 -y 590 -defaultsOSRD
+preplace netloc ansa_spo 1 1 1 N
+preplace netloc a_2_1 1 0 1 NJ
+preplace netloc ansc_spo 1 1 1 NJ
+preplace netloc a_3_1 1 0 1 NJ
+preplace netloc hard_spo 1 1 1 NJ
+preplace netloc a_1_1 1 0 1 N
+preplace netloc ans_spo 1 1 1 N
+preplace netloc ansb_spo 1 1 1 NJ
+preplace netloc a_4_1 1 0 1 NJ
+preplace netloc a_5_1 1 0 1 NJ
+preplace netloc title_spo 1 1 1 NJ
+preplace netloc a_0_1 1 0 1 N
+levelinfo -pg 1 -10 110 230 -top 0 -bot 650
+",
+}
+
